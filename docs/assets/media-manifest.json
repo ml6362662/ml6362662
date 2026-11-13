@@ -1,0 +1,22 @@
+[
+  {
+    "source": "xarm推理演示.mp4",
+    "video": "xarm-sft.mp4",
+    "bytes": 8745242
+  },
+  {
+    "source": "多柔性物体夹取综合演示.mp4",
+    "video": "xarm-posttraining.mp4",
+    "bytes": 10163521
+  },
+  {
+    "source": "松灵堆叠物品.mp4",
+    "video": "agilex-foundation.mp4",
+    "bytes": 2084918
+  },
+  {
+    "source": "松灵双臂放置堆叠物品.mp4",
+    "video": "agilex-long-horizon.mp4",
+    "bytes": 3162063
+  }
+]
