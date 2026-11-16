@@ -9,6 +9,12 @@
 
 > 四段真实机器人实验。下面按主要成果优先排列；点击封面进入对应项目并播放视频。
 
+## 核心工程仓库
+
+- **[Quest 3 × xArm7 VR 遥操与数据采集 GUI](https://github.com/ml6362662/xarm7-vr-teleop-recorder)**：集成 Quest 位姿接入、机械臂遥操作、双相机预览、同步数据记录、安全保护与数据质量检查，支撑 LeRobot v2.1 示教数据采集。
+- **[π₀.₅ × xArm7 真机推理 GUI](https://github.com/ml6362662/xarm7-pi05-inference-gui)**：面向双相机观测与机械臂状态输入，完成模型配置校验、π₀.₅ 服务连接、动作执行与真机推理流程管理。
+- **[人机共驾强化学习驾驶座舱](https://github.com/ml6362662/hil-driving-cockpit)**：北京市自然科学基金项目成果，覆盖两代驾驶座舱、CARLA 实验平台、示范质量评估与反事实接管筛选。
+
 ## 01 · 从单目标到多目标：VLA 真机后训练
 
 [![多柔性物体夹取 · 四宫格实验](docs/assets/xarm-posttraining.jpg)](https://ml6362662.github.io/ml6362662/#xarm-posttraining)
@@ -34,6 +40,8 @@
 **我的贡献：** 完成 xArm 真机调试、Quest 3 VR 遥操通信联调与全流程设计；编写遥操 GUI 和真机推理 GUI，参与各环节细节设计，完成采训推集成。
 
 **实现：** 接入相机与机器人状态，完成遥操作示教、LeRobot v2.1 数据记录及标注，再进行 π₀.₅ SFT 和真机部署评估。简历记录 xArm 专家示范与 DAgger 式交互数据累计 600+ 条。
+
+**工程仓库：** [VR 遥操与数据采集 GUI ↗](https://github.com/ml6362662/xarm7-vr-teleop-recorder) · [π₀.₅ 真机推理 GUI ↗](https://github.com/ml6362662/xarm7-pi05-inference-gui)
 
 **结果：** 当前展示阶段，单面包片任务成功率 >90%。
 
